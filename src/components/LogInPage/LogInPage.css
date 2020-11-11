@@ -1,0 +1,41 @@
+
+
+.email-error {
+    color: red;
+    font-size: 12.5px
+}
+
+.password-error {
+    color: red;
+    font-size: 12.5px
+}
+
+.login-box {
+    position: fixed;
+    left: 507px;
+    top: 173px;
+    width: 426px;
+    height: 538px
+}
+
+.images {
+    position: fixed;
+    left: 661px;
+    top: 123px;
+    width: 118px;
+    height: 101px;
+    z-index: 1
+}
+
+.login {
+    position: fixed;
+    left: 631px;
+    top: 235px
+}
+
+.login-form {
+    position: fixed;
+    left: 552px;
+    top: 302px;
+}
+

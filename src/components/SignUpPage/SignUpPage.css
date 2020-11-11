@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: Poppins, sans-serif
+}
+
+
+.logo {
+    position: absolute;
+    left: 627px;
+    top: 40px;
+    height: 47px;
+    width: 185px
+}
+
+.line {
+    position: absolute;
+    left: 0px;
+    top: 104px;
+    width: 100vw;
+    height: 5px;
+
+}
+
+.createac {
+    position: absolute;
+    left: 547px;
+    top: 143px;
+    font-size: 32;
+    font-weight: bolder;
+}
+
+.logindiv {
+    position: absolute;
+    left: 529px;
+    top: 205px;
+}
+
+.already {
+    position: relative;
+    left: 15px;
+    top: 20px;
+    font-size: 16;
+    font-weight: lighter;
+}
+
+.loginbtn {
+    position: relative;
+    left: 315px;
+    top: -31px;
+}
+
+.input-form {
+    position: absolute;
+    left: 547px;
+    top: 291px;
+    display: block
+}
+
+.tandc {
+    font-size: 5
+}
+
+
