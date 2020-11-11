@@ -36,7 +36,7 @@ const LogInPage = (props) => {
                     <div>
                         <Field required label='Password' name='password' type='input' as={styles.TextField}/>
                         {touched.password && errors.password 
-                        ? (<div className='password-error'>{errors.password}</div>)
+                        ? (<div className='password-error'> { errors.password } </div>)
                         : null}
                     </div>
                 <div>
@@ -47,7 +47,7 @@ const LogInPage = (props) => {
                 </pre> */}
                 </Form>
             )}</Formik>
-            <div className='signupdiv'>
+            <div className='signupdiv'> 
                 <h6 className='noaccount'>Don't have a Pulley account?</h6>
                 <styles.Button className='signup-btn' onClick={() => props.decrement()}>Sign up!</styles.Button>
             </div>
