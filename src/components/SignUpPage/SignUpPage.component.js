@@ -76,6 +76,8 @@ const SignUpPage = (props) => {
           </pre>
         </Form>
         )}</Formik>
+
+        <styles.Button onClick={() => props.increment()}>Log in</styles.Button>
   
     </div>
   )
