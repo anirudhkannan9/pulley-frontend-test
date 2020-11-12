@@ -4,9 +4,6 @@ import * as styles from './LogInPageStyles'
 import loginSchema from './LogInSchema'
 import './LogInPage.css'
 
-
-
-
 const LogInPage = (props) => {
     const classes = styles.useStyles()
 
