@@ -51,14 +51,67 @@
     top: -31px;
 }
 
-.input-form {
+.signup-form {
     position: absolute;
     left: 547px;
     top: 291px;
     display: block
 }
 
+.name-input {
+    position: absolute;
+    left: 551px;
+    top: 324px
+}
+
+.name-error {
+    color: red;
+    font-size: 12px
+}
+
+.email-input {
+    position: absolute;
+    left: 551px;
+    top: 374px
+}
+
+.email-error {
+    color: red;
+    font-size: 12px
+}
+
+.password-input {
+    position: absolute;
+    left: 551px;
+    top: 424px
+}
+
+.password-error {
+    color: red;
+    font-size: 12px
+}
+
+.confirmPassword-input {
+    position: absolute;
+    left: 551px;
+    top: 474px;
+}
+
+.confirmPassword-error {
+    color: red;
+    font-size: 12px
+}
+
+.signup-btn {
+    position: absolute;
+    left: 551px;
+    top: 530px
+}
+
 .tandc {
+    position: absolute;
+    left: 551px;
+    top: 570px;
     font-size: 5
 }
 
