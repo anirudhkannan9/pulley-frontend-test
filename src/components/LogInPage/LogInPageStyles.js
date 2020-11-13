@@ -1,8 +1,14 @@
 import TextField from '@material-ui/core/TextField'
 import logo from '../../assets/PulleySoleLogo.png'
 import { borders } from '@material-ui/system'
-import { Box, Button, OutlinedInput } from '@material-ui/core'
+import { Box, Button, OutlinedInput, Input } from '@material-ui/core'
 import { makeStyles, createMuiTheme, MuiThemeProvider} from "@material-ui/core/styles"
+import InputAdornment from "@material-ui/core/InputAdornment"
+import Visibility from "@material-ui/icons/Visibility"
+import VisibilityOff from "@material-ui/icons/VisibilityOff"
+import IconButton from "@material-ui/core/IconButton"
+import FormControl from "@material-ui/core/FormControl"
+import clsx from 'clsx'
 
 const theme = createMuiTheme({
     typography: {
@@ -46,5 +52,6 @@ const theme = createMuiTheme({
   }))
 
 export { 
-    TextField, Button, logo, borders, Box, OutlinedInput, makeStyles, createMuiTheme, MuiThemeProvider, useStyles, theme
+    TextField, Button, logo, borders, Box, OutlinedInput, makeStyles, createMuiTheme, MuiThemeProvider, useStyles, theme, Input,
+    InputAdornment, Visibility, VisibilityOff, IconButton, FormControl, clsx
 } 

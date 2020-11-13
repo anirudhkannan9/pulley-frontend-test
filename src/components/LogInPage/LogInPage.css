@@ -1,25 +1,7 @@
 
 
-.email-error {
-    color: red;
-    font-size: 12.5px
-}
-
-.password-error {
-    color: red;
-    font-size: 12.5px
-}
-
-.login-box {
-    position: fixed;
-    left: 507px;
-    top: 173px;
-    width: 426px;
-    height: 538px
-}
-
 .images {
-    position: fixed;
+    position: absolute;
     left: 661px;
     top: 123px;
     width: 118px;
@@ -28,14 +10,49 @@
 }
 
 .login {
-    position: fixed;
-    left: 631px;
+    position: absolute;
+    left: 635px;
     top: 235px
 }
 
-.login-form {
-    position: fixed;
+.email-input {
+    position: absolute;
     left: 552px;
-    top: 302px;
+    top: 260px
 }
 
+.password-input {
+    position: absolute;
+    left: 552px;
+    top: 320px
+}
+
+.login-btn {
+    position: absolute;
+    left: 552px;
+    top: 480px
+}
+
+.forgot-password {
+    position: absolute;
+    left: 552px;
+    top: 550px
+}
+
+.reset-password-btn {
+    position: absolute; 
+    left: 690px;
+    top: 563px;
+}
+
+.sign-up {
+    position: absolute;
+    left: 552px; 
+    top: 600px
+}
+
+.sign-up-btn {
+    position: absolute;
+    left: 735px;
+    top: 612px
+}
